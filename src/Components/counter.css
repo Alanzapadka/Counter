@@ -1,0 +1,48 @@
+body{
+    background: grey;
+
+}
+.add{
+    background: green;
+    border-radius: 3px;
+    border: 2px solid limegreen;
+    width: 100px;
+    color: white;
+    height: 2rem;
+    cursor: pointer;
+    padding: 2px;
+    margin: 3px;
+
+
+}
+.add:hover{
+background: darkgreen;
+border: 2px solid lightgreen;
+}
+
+.sub{
+    background: red;
+    border-radius: 3px;
+    border: 2px solid lightcoral;
+    width: 100px;
+    height: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+    margin: 3px;
+
+}
+.sub:hover{
+    background: crimson;
+    border: 2px solid lightcoral;
+}
+.Number-screen{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
